@@ -1,19 +1,37 @@
+body{
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
 header {
     text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
 }
 
 h1 {
-    color: #044e9c;;
-    font-size: 50px;
+    font-family: sans-serif;
+    color: #044e9c;
     text-align: center;
+    font-size: 5rem;
+    line-height: 1.1;
 }
 
 h2 {
-    color: hsl(211, 95%, 31%);
+    padding: 4px;
+    border-left: solid #044e9c 4px;
+    font-family: sans-serif;
+    color: hsl(45, 90%, 46%);
     
 }
 
 footer {
+    padding: 20px;
     text-align: center;
+    color: azure;
     background-color: #044e9c ;
+}
+
+section {
+    margin-block: 75px;
 }
